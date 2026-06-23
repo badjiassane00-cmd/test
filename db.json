@@ -1,0 +1,651 @@
+{
+  "naufrages": [
+    {
+      "id": 1,
+      "navire": "Titanic",
+      "annee": 1912,
+      "pays": "Royaume-Uni",
+      "lieu": "Océan Atlantique Nord",
+      "victimes": 1500,
+      "survivants": 706,
+      "cause": "Collision avec un iceberg",
+      "description": "Le Titanic était considéré comme insubmersible. Il a coulé lors de son voyage inaugural.",
+      "image": "/images/titanic.jpg",
+      "video": "/videos/titanic.mp4",
+      "audio": "/audios/titanic.mp3",
+      "document": "/pdfs/titanic.pdf"
+    },
+    {
+      "id": 2,
+      "navire": "Le Joola",
+      "annee": 2002,
+      "pays": "Sénégal",
+      "lieu": "Au large de la Gambie, Océan Atlantique",
+      "victimes": 1863,
+      "survivants": 64,
+      "cause": "Surcharge et mauvaises conditions météorologiques",
+      "description": "Ferry sénégalais reliant Ziguinchor à Dakar. L'une des plus grandes catastrophes maritimes en temps de paix.",
+      "image": "/images/joola.jpg",
+      "video": "/videos/joola.mp4",
+      "audio": "/audios/joola.mp3",
+      "document": "/pdfs/joola.pdf"
+    },
+    {
+      "id": 3,
+      "navire": "Doña Paz",
+      "annee": 1987,
+      "pays": "Philippines",
+      "lieu": "Mer de Sibuyan",
+      "victimes": 4386,
+      "survivants": 24,
+      "cause": "Collision avec le pétrolier MT Vector",
+      "description": "Le pire naufrage en temps de paix de l'histoire des Philippines. Le choc a provoqué un incendie dévastateur.",
+      "image": "/images/donapaz.jpg",
+      "video": "/videos/donapaz.mp4",
+      "audio": "/audios/donapaz.mp3",
+      "document": "/pdfs/donapaz.pdf"
+    },
+    {
+      "id": 4,
+      "navire": "Wilhelm Gustloff",
+      "annee": 1945,
+      "pays": "Allemagne",
+      "lieu": "Mer Baltique",
+      "victimes": 9000,
+      "survivants": 1200,
+      "cause": "Torpillage par un sous-marin soviétique",
+      "description": "Le naufrage le plus meurtrier de l'histoire. Le navire transportait des réfugiés et militaires allemands fuyant l'avancée soviétique.",
+      "image": "/images/wilhelm.jpg",
+      "video": "/videos/wilhelm.mp4",
+      "audio": "/audios/wilhelm.mp3",
+      "document": "/pdfs/wilhelm.pdf"
+    },
+    {
+      "id": 5,
+      "navire": "Goya",
+      "annee": 1945,
+      "pays": "Allemagne",
+      "lieu": "Mer Baltique",
+      "victimes": 7000,
+      "survivants": 180,
+      "cause": "Torpillage par un sous-marin soviétique",
+      "description": "Navire de transport allemand coulé en moins de 4 minutes après avoir été touché par deux torpilles.",
+      "image": "/images/goya.jpg",
+      "video": "/videos/goya.mp4",
+      "audio": "/audios/goya.mp3",
+      "document": "/pdfs/goya.pdf"
+    },
+    {
+      "id": 6,
+      "navire": "Lusitania",
+      "annee": 1915,
+      "pays": "Royaume-Uni",
+      "lieu": "Côte irlandaise, Océan Atlantique",
+      "victimes": 1198,
+      "survivants": 761,
+      "cause": "Torpillage par le sous-marin allemand U-20",
+      "description": "Le naufrage du Lusitania a contribué à l'entrée des États-Unis dans la Première Guerre mondiale.",
+      "image": "/images/lusitania.jpg",
+      "video": "/videos/lusitania.mp4",
+      "audio": "/audios/lusitania.mp3",
+      "document": "/pdfs/lusitania.pdf"
+    },
+    {
+      "id": 7,
+      "navire": "Estonia",
+      "annee": 1994,
+      "pays": "Estonie",
+      "lieu": "Mer Baltique",
+      "victimes": 852,
+      "survivants": 137,
+      "cause": "Défaillance de la porte avant et envahissement par les flots",
+      "description": "Ferry de passagers reliant Tallinn à Stockholm. La catastrophe maritime la plus meurtrière en Europe d'après-guerre.",
+      "image": "/images/estonia.jpg",
+      "video": "/videos/estonia.mp4",
+      "audio": "/audios/estonia.mp3",
+      "document": "/pdfs/estonia.pdf"
+    },
+    {
+      "id": 8,
+      "navire": "Costa Concordia",
+      "annee": 2012,
+      "pays": "Italie",
+      "lieu": "Île du Giglio, Mer Tyrrhénienne",
+      "victimes": 32,
+      "survivants": 4197,
+      "cause": "Erreur humaine — le capitaine a voulu faire un passage trop proche des côtes",
+      "description": "Paquebot de croisière qui a dévié de sa route et heurté des rochers. Le capitaine Francesco Schettino a fui avant l'évacuation.",
+      "image": "/images/concordia.jpg",
+      "video": "/videos/concordia.mp4",
+      "audio": "/audios/concordia.mp3",
+      "document": "/pdfs/concordia.pdf"
+    },
+    {
+      "id": 9,
+      "navire": "Sewol",
+      "annee": 2014,
+      "pays": "Corée du Sud",
+      "lieu": "Mer Jaune, Détroit de Maenggol",
+      "victimes": 304,
+      "survivants": 172,
+      "cause": "Surcharge, mauvais arrimage et virage trop brusque",
+      "description": "Ferry transportant principalement des lycéens en voyage scolaire. La lenteur des secours a provoqué une crise politique majeure.",
+      "image": "/images/sewol.jpg",
+      "video": "/videos/sewol.mp4",
+      "audio": "/audios/sewol.mp3",
+      "document": "/pdfs/sewol.pdf"
+    },
+    {
+      "id": 10,
+      "navire": "Andrea Doria",
+      "annee": 1956,
+      "pays": "Italie",
+      "lieu": "Atlantique Nord, Large de Nantucket",
+      "victimes": 46,
+      "survivants": 1660,
+      "cause": "Collision avec le paquebot Stockholm dans le brouillard",
+      "description": "Paquebot de luxe italien dont le naufrage a révolutionné les normes de sécurité maritime internationales.",
+      "image": "/images/andreadoria.jpg",
+      "video": "/videos/andreadoria.mp4",
+      "audio": "/audios/andreadoria.mp3",
+      "document": "/pdfs/andreadoria.pdf"
+    }
+  ],
+
+  "temoignages": [
+    {
+      "id": 1,
+      "naufrageId": 1,
+      "nom": "Margaret Brown",
+      "age": 44,
+      "nationalite": "Américaine",
+      "statut": "Survivante",
+      "temoignage": "La nuit était glaciale. Nous entendions les cris de ceux qui se noyaient dans l'eau noire. Les canots étaient insuffisants pour tout le monde.",
+      "audio": "/audios/temoignage_margaret.mp3"
+    },
+    {
+      "id": 2,
+      "naufrageId": 1,
+      "nom": "Jack Thayer",
+      "age": 17,
+      "nationalite": "Américaine",
+      "statut": "Survivant",
+      "temoignage": "J'ai sauté à l'eau et nagé vers un canot retourné. Le navire s'est brisé en deux avant de couler.",
+      "audio": "/audios/temoignage_thayer.mp3"
+    },
+    {
+      "id": 3,
+      "naufrageId": 2,
+      "nom": "Mamadou Diop",
+      "age": 42,
+      "nationalite": "Sénégalaise",
+      "statut": "Survivant",
+      "temoignage": "Le bateau a chaviré en quelques minutes. J'ai passé plusieurs heures dans l'océan avant d'être secouru par des pêcheurs.",
+      "audio": "/audios/temoignage_mamadou.mp3"
+    },
+    {
+      "id": 4,
+      "naufrageId": 2,
+      "nom": "Fatou Sow",
+      "age": 28,
+      "nationalite": "Sénégalaise",
+      "statut": "Survivante",
+      "temoignage": "Tout est allé très vite. J'ai perdu mon mari et mes deux enfants cette nuit-là. Je suis la seule de ma famille à avoir survécu.",
+      "audio": "/audios/temoignage_fatou.mp3"
+    },
+    {
+      "id": 5,
+      "naufrageId": 3,
+      "nom": "Juan Santos",
+      "age": 36,
+      "nationalite": "Philippine",
+      "statut": "Survivant",
+      "temoignage": "L'explosion et l'incendie ont été immédiats après la collision. Il faisait noir et les flammes se propageaient partout.",
+      "audio": "/audios/temoignage_juan.mp3"
+    },
+    {
+      "id": 6,
+      "naufrageId": 4,
+      "nom": "Eva Dorn",
+      "age": 31,
+      "nationalite": "Allemande",
+      "statut": "Survivante",
+      "temoignage": "Nous fuyions les combats avec nos enfants. Quand les torpilles ont frappé, la panique était totale. L'eau était tellement froide.",
+      "audio": "/audios/temoignage_eva.mp3"
+    },
+    {
+      "id": 7,
+      "naufrageId": 6,
+      "nom": "Charles Lauriat",
+      "age": 39,
+      "nationalite": "Américaine",
+      "statut": "Survivant",
+      "temoignage": "Le navire a coulé en 18 minutes seulement. Personne n'avait eu le temps de comprendre ce qui se passait.",
+      "audio": "/audios/temoignage_lauriat.mp3"
+    },
+    {
+      "id": 8,
+      "naufrageId": 7,
+      "nom": "Anu Mägi",
+      "age": 24,
+      "nationalite": "Estonienne",
+      "statut": "Survivante",
+      "temoignage": "La mer était déchaînée. J'ai réussi à attraper un radeau de sauvetage. Beaucoup de personnes autour de moi ont été emportées par les vagues.",
+      "audio": "/audios/temoignage_anu.mp3"
+    },
+    {
+      "id": 9,
+      "naufrageId": 8,
+      "nom": "Sofia Rinaldi",
+      "age": 52,
+      "nationalite": "Italienne",
+      "statut": "Survivante",
+      "temoignage": "Le capitaine nous a dit de rester calmes, que c'était une panne technique. Pendant ce temps le navire penchait de plus en plus.",
+      "audio": "/audios/temoignage_sofia.mp3"
+    },
+    {
+      "id": 10,
+      "naufrageId": 9,
+      "nom": "Kim Ji-young",
+      "age": 17,
+      "nationalite": "Sud-Coréenne",
+      "statut": "Survivante",
+      "temoignage": "Le message officiel nous demandait de rester à nos places. Ceux qui ont obéi n'ont pas survécu. J'ai désobéi et je suis en vie.",
+      "audio": "/audios/temoignage_kimji.mp3"
+    }
+  ],
+
+  "survivants": [
+    {
+      "id": 1,
+      "naufrageId": 1,
+      "nom": "Margaret Brown",
+      "nationalite": "Américaine",
+      "age": 44,
+      "profession": "Philanthrope"
+    },
+    {
+      "id": 2,
+      "naufrageId": 1,
+      "nom": "Jack Thayer",
+      "nationalite": "Américaine",
+      "age": 17,
+      "profession": "Étudiant"
+    },
+    {
+      "id": 3,
+      "naufrageId": 1,
+      "nom": "Charles Lightoller",
+      "nationalite": "Britannique",
+      "age": 38,
+      "profession": "Second officier"
+    },
+    {
+      "id": 4,
+      "naufrageId": 2,
+      "nom": "Mamadou Diop",
+      "nationalite": "Sénégalaise",
+      "age": 42,
+      "profession": "Commerçant"
+    },
+    {
+      "id": 5,
+      "naufrageId": 2,
+      "nom": "Fatou Sow",
+      "nationalite": "Sénégalaise",
+      "age": 28,
+      "profession": "Enseignante"
+    },
+    {
+      "id": 6,
+      "naufrageId": 3,
+      "nom": "Juan Santos",
+      "nationalite": "Philippine",
+      "age": 36,
+      "profession": "Marin"
+    },
+    {
+      "id": 7,
+      "naufrageId": 4,
+      "nom": "Eva Dorn",
+      "nationalite": "Allemande",
+      "age": 31,
+      "profession": "Réfugiée civile"
+    },
+    {
+      "id": 8,
+      "naufrageId": 6,
+      "nom": "Charles Lauriat",
+      "nationalite": "Américaine",
+      "age": 39,
+      "profession": "Libraire"
+    },
+    {
+      "id": 9,
+      "naufrageId": 7,
+      "nom": "Anu Mägi",
+      "nationalite": "Estonienne",
+      "age": 24,
+      "profession": "Étudiante"
+    },
+    {
+      "id": 10,
+      "naufrageId": 8,
+      "nom": "Sofia Rinaldi",
+      "nationalite": "Italienne",
+      "age": 52,
+      "profession": "Retraitée"
+    },
+    {
+      "id": 11,
+      "naufrageId": 9,
+      "nom": "Kim Ji-young",
+      "nationalite": "Sud-Coréenne",
+      "age": 17,
+      "profession": "Lycéenne"
+    },
+    {
+      "id": 12,
+      "naufrageId": 10,
+      "nom": "Roberto Gianetti",
+      "nationalite": "Italienne",
+      "age": 45,
+      "profession": "Ingénieur naval"
+    }
+  ],
+
+  "photos": [
+    {
+      "id": 1,
+      "naufrageId": 1,
+      "titre": "Le Titanic quittant Southampton",
+      "url": "/images/titanic_depart.jpg",
+      "annee": 1912
+    },
+    {
+      "id": 2,
+      "naufrageId": 1,
+      "titre": "Épave du Titanic au fond de l'Atlantique",
+      "url": "/images/titanic_epave.jpg",
+      "annee": 1985
+    },
+    {
+      "id": 3,
+      "naufrageId": 2,
+      "titre": "Le Joola au port de Dakar",
+      "url": "/images/joola_port.jpg",
+      "annee": 2001
+    },
+    {
+      "id": 4,
+      "naufrageId": 2,
+      "titre": "Opérations de secours après le naufrage",
+      "url": "/images/joola_secours.jpg",
+      "annee": 2002
+    },
+    {
+      "id": 5,
+      "naufrageId": 3,
+      "titre": "Le Doña Paz avant le naufrage",
+      "url": "/images/donapaz_navire.jpg",
+      "annee": 1987
+    },
+    {
+      "id": 6,
+      "naufrageId": 4,
+      "titre": "Le Wilhelm Gustloff à quai",
+      "url": "/images/wilhelm_quai.jpg",
+      "annee": 1938
+    },
+    {
+      "id": 7,
+      "naufrageId": 6,
+      "titre": "Le Lusitania dans le port de New York",
+      "url": "/images/lusitania_ny.jpg",
+      "annee": 1907
+    },
+    {
+      "id": 8,
+      "naufrageId": 7,
+      "titre": "L'Estonia en navigation",
+      "url": "/images/estonia_mer.jpg",
+      "annee": 1993
+    },
+    {
+      "id": 9,
+      "naufrageId": 8,
+      "titre": "Le Costa Concordia échoué",
+      "url": "/images/concordia_echoue.jpg",
+      "annee": 2012
+    },
+    {
+      "id": 10,
+      "naufrageId": 9,
+      "titre": "Le Sewol en train de couler",
+      "url": "/images/sewol_naufrage.jpg",
+      "annee": 2014
+    },
+    {
+      "id": 11,
+      "naufrageId": 10,
+      "titre": "L'Andrea Doria en mer",
+      "url": "/images/andreadoria_mer.jpg",
+      "annee": 1953
+    }
+  ],
+
+  "videos": [
+    {
+      "id": 1,
+      "naufrageId": 1,
+      "titre": "Documentaire Titanic — L'insubmersible",
+      "url": "/videos/titanic_documentaire.mp4",
+      "duree": "52 min",
+      "langue": "Français"
+    },
+    {
+      "id": 2,
+      "naufrageId": 2,
+      "titre": "Le Joola — Mémoire d'un drame",
+      "url": "/videos/joola_documentaire.mp4",
+      "duree": "48 min",
+      "langue": "Français"
+    },
+    {
+      "id": 3,
+      "naufrageId": 3,
+      "titre": "Doña Paz — La tragédie oubliée",
+      "url": "/videos/donapaz_documentaire.mp4",
+      "duree": "45 min",
+      "langue": "Français"
+    },
+    {
+      "id": 4,
+      "naufrageId": 4,
+      "titre": "Wilhelm Gustloff — Le naufrage oublié",
+      "url": "/videos/wilhelm_documentaire.mp4",
+      "duree": "60 min",
+      "langue": "Français"
+    },
+    {
+      "id": 5,
+      "naufrageId": 5,
+      "titre": "Le Goya — Tragédie en mer Baltique",
+      "url": "/videos/goya_documentaire.mp4",
+      "duree": "42 min",
+      "langue": "Français"
+    },
+    {
+      "id": 6,
+      "naufrageId": 6,
+      "titre": "Lusitania — Le torpillage qui a changé la guerre",
+      "url": "/videos/lusitania_documentaire.mp4",
+      "duree": "55 min",
+      "langue": "Français"
+    },
+    {
+      "id": 7,
+      "naufrageId": 7,
+      "titre": "Estonia — Naufrage en mer du Nord",
+      "url": "/videos/estonia_documentaire.mp4",
+      "duree": "50 min",
+      "langue": "Français"
+    },
+    {
+      "id": 8,
+      "naufrageId": 8,
+      "titre": "Costa Concordia — Le capitaine qui a fui",
+      "url": "/videos/concordia_documentaire.mp4",
+      "duree": "58 min",
+      "langue": "Français"
+    },
+    {
+      "id": 9,
+      "naufrageId": 9,
+      "titre": "Sewol — Les enfants oubliés",
+      "url": "/videos/sewol_documentaire.mp4",
+      "duree": "62 min",
+      "langue": "Coréen / sous-titres FR"
+    },
+    {
+      "id": 10,
+      "naufrageId": 10,
+      "titre": "Andrea Doria — Collision dans le brouillard",
+      "url": "/videos/andreadoria_documentaire.mp4",
+      "duree": "47 min",
+      "langue": "Français"
+    }
+  ],
+
+  "equipesSauvetage": [
+    {
+      "id": 1,
+      "naufrageId": 1,
+      "organisation": "RMS Carpathia",
+      "effectif": 120,
+      "mission": "Sauvetage des survivants — arrivée 1h40 après le naufrage",
+      "pays": "Royaume-Uni"
+    },
+    {
+      "id": 2,
+      "naufrageId": 2,
+      "organisation": "Marine Nationale Sénégalaise",
+      "effectif": 150,
+      "mission": "Recherche et sauvetage en mer",
+      "pays": "Sénégal"
+    },
+    {
+      "id": 3,
+      "naufrageId": 2,
+      "organisation": "Croix-Rouge Sénégalaise",
+      "effectif": 80,
+      "mission": "Aide médicale et prise en charge des survivants",
+      "pays": "Sénégal"
+    },
+    {
+      "id": 4,
+      "naufrageId": 3,
+      "organisation": "Garde-côtes philippins",
+      "effectif": 200,
+      "mission": "Recherche en mer et coordination des secours",
+      "pays": "Philippines"
+    },
+    {
+      "id": 5,
+      "naufrageId": 7,
+      "organisation": "Gardes-côtes suédois",
+      "effectif": 300,
+      "mission": "Sauvetage en mer Baltique dans des conditions météo extrêmes",
+      "pays": "Suède"
+    },
+    {
+      "id": 6,
+      "naufrageId": 8,
+      "organisation": "Garde-côtes italiens",
+      "effectif": 400,
+      "mission": "Évacuation et sauvetage des passagers",
+      "pays": "Italie"
+    },
+    {
+      "id": 7,
+      "naufrageId": 9,
+      "organisation": "Garde-côtes coréens",
+      "effectif": 500,
+      "mission": "Opérations de recherche et récupération des victimes",
+      "pays": "Corée du Sud"
+    }
+  ],
+
+  "memoriaux": [
+    {
+      "id": 1,
+      "naufrageId": 1,
+      "nom": "Titanic Belfast",
+      "ville": "Belfast",
+      "pays": "Irlande du Nord",
+      "anneeInauguration": 2012,
+      "description": "Musée interactif sur le site du chantier naval où le Titanic a été construit.",
+      "siteWeb": "https://www.titanicbelfast.com"
+    },
+    {
+      "id": 2,
+      "naufrageId": 2,
+      "nom": "Mémorial du Joola",
+      "ville": "Ziguinchor",
+      "pays": "Sénégal",
+      "anneeInauguration": 2007,
+      "description": "Monument dédié aux victimes du naufrage du Joola, inauguré en présence des familles.",
+      "siteWeb": ""
+    },
+    {
+      "id": 3,
+      "naufrageId": 2,
+      "nom": "Place du Souvenir du Joola",
+      "ville": "Dakar",
+      "pays": "Sénégal",
+      "anneeInauguration": 2012,
+      "description": "Espace commémoratif au cœur de Dakar pour rappeler le drame aux nouvelles générations.",
+      "siteWeb": ""
+    },
+    {
+      "id": 4,
+      "naufrageId": 6,
+      "nom": "Lusitania Peace Memorial",
+      "ville": "Cobh",
+      "pays": "Irlande",
+      "anneeInauguration": 1968,
+      "description": "Monument commémorant les victimes du torpillage du Lusitania au large de la côte irlandaise.",
+      "siteWeb": ""
+    },
+    {
+      "id": 5,
+      "naufrageId": 7,
+      "nom": "Mémorial de l'Estonia",
+      "ville": "Tallinn",
+      "pays": "Estonie",
+      "anneeInauguration": 1995,
+      "description": "Monument en hommage aux 852 victimes, dont une majorité d'Estoniens et de Suédois.",
+      "siteWeb": ""
+    },
+    {
+      "id": 6,
+      "naufrageId": 8,
+      "nom": "Museo del Mare Concordia",
+      "ville": "Île du Giglio",
+      "pays": "Italie",
+      "anneeInauguration": 2015,
+      "description": "Petit musée local retraçant le naufrage et les opérations de renflouement du Costa Concordia.",
+      "siteWeb": ""
+    },
+    {
+      "id": 7,
+      "naufrageId": 9,
+      "nom": "Mémorial du Sewol",
+      "ville": "Ansan",
+      "pays": "Corée du Sud",
+      "anneeInauguration": 2017,
+      "description": "Mémorial dédié principalement aux lycéens de l'école Danwon décédés lors du naufrage.",
+      "siteWeb": ""
+    }
+  ]
+}
